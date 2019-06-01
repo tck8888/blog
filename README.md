@@ -1,15 +1,14 @@
-# mpvue学习
+# bog项目
 
-## 搭建vue环境搭建
+## Semantic UI 使用
 
-    1. 全局安装vue-cli
-    2. 创建一个基于模板的新项目 vue init mpvue/mpvue-quickstart xxx
-    3. cd xxx 进入xxx
-    4. npm install安装所需要的依赖
-    5. 运行 npm run dev
+	https://semantic-ui.com/introduction/getting-started.html
+	
+### Semantic UI安装
 
-## 搭建微信小程序的开发环境
+	1. npm install -g gulp
+	2. npm install semantic-ui --save
+	3. cd semantic/
+	4. gulp build
 
-## 调试开发程序
-
-## 每次修改需要重新 npm run dev 进行进行重新编译
+### Semantic UI引用
