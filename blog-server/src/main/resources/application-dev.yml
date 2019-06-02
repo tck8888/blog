@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://cdb-e7gws0jm.bj.tencentcdb.com:10150/blog?useUnicode=true&characterEncoding=utf-8
+    password: ""
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+logging:
+  level:
+    root: info
+    com.tck: debug
+  file: log/blog-dev.log
